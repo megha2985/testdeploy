@@ -21,7 +21,7 @@ jobs:
         run: git clone https://github.com/megha2985/testdeploy.git
 
       - name: Change directory
-        run: cd your-repo
+        run: cd testdeploy
 
       - name: Install dependencies
         run: npm install
