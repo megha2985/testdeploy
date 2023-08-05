@@ -18,7 +18,7 @@ jobs:
           sudo apt-get install -y nodejs
 
       - name: Clone repository
-        run: git clone https://github.com/megha2985/https://github.com/megha2985/testdeploy.git
+        run: git clone https://github.com/megha2985/testdeploy.git
 
       - name: Change directory
         run: cd your-repo
