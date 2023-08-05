@@ -8,9 +8,9 @@ on:
 
 jobs:
   deploy:
-    name: Deploy to EC2 on master branch push
     runs-on: ubuntu-latest
-steps:
+
+    steps:
       - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
